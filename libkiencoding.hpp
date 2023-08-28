@@ -1,5 +1,5 @@
-#ifndef ENCODING_HPP
-#define ENCODING_HPP
+#ifndef LIBKIENCODING_HPP
+#define LIBKIENCODING_HPP
 
 #include <istream>
 #include <string>
@@ -20,7 +20,7 @@
 using std::string;
 using std::vector;
 
-namespace encoding{
+namespace libkiencoding{
 	// TODO Maybe make a generic radix64 encoding/decoding where you can supply your own lookup/alphabet
 	// Then have built in alphabets for common radix64 encodings
 	// See: https://en.wikipedia.org/wiki/Base64#Radix-64_applications_not_compatible_with_Base64
@@ -266,4 +266,4 @@ namespace encoding{
 	}
 }
 
-#endif // ENCODING_HPP
+#endif // LIBKIENCODING_HPP
